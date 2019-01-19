@@ -1,0 +1,38 @@
+.title{
+	text-align: center;
+}
+
+h1, p{
+	margin-right: 2%;
+}
+
+.skin-aging{
+	font-size: 20px;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+.sun-protec{
+	width: 70%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.micro{
+	display: inline-block;
+	position: relative;
+	margin-bottom: 1%;
+	width: 100%
+	height: auto;
+}
+
+.collage{
+	display: inline-flex;
+	width: 100%;
+	height: auto;
+}
+
+
+

@@ -1,0 +1,32 @@
+h1{
+	text-align: center;
+	font-size: 60px;
+}
+
+h3{
+	font-size: 25px;
+}
+
+.column{
+	column-count: 2;
+	column-gap: 5%;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 8%;
+}
+
+.back{
+	font-size: 35px;
+	width: 10%;
+	position: absolute;
+	top: 325%;
+	left: 85%;
+	background-color: #fcfbf9;
+	border: none;
+	color: #7a7779;
+}
+
+.back:hover{
+	cursor: pointer;
+	color: black;
+}

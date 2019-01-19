@@ -1,0 +1,18 @@
+.pic{
+	position: absolute;
+	top: 30%;
+	left: 20%;
+	background-color: red;
+	width: 20%;
+	height: 40%;
+}
+
+.bio{
+	position: absolute;
+	top: 30%;
+	left: 45%;
+	width: 40%;
+	height: 40%;
+	font-size: 22px;
+	text-align: justify;
+}

@@ -1,0 +1,115 @@
+body{
+	background-color: #fcfbf9;
+	font-family: 'Didact Gothic', sans-serif;
+	font-size: 35px;
+	color: #111111;
+	margin: 0;
+}
+
+p, li{
+	font-size: 20px;
+	text-align: justify;
+}
+
+.container{
+	display: flex;
+	padding-left: 0%;
+	justify-content: space-around;
+	padding-top: 1.5%;
+	padding-bottom: 1.5%;
+	background-color: #dee6e69e;
+	z-index: 101;
+}
+
+a{
+	text-decoration: none;
+	color: #111111;
+	z-index: 100;
+}
+
+a:hover{
+	cursor: pointer;
+}
+
+.dropdwon{
+	position: relative;
+	display: inline-block;
+}
+
+.dropdownLinks{
+	display: none;
+ 	position: absolute;
+ 	/*background-color: #cec0d4;*/
+	z-index: 1;
+	padding-top: 1%;
+}
+
+.dropdownLinks>a{
+	padding-left: 1%;
+	padding-right: 1%;
+	width: 20%;
+}
+
+.dropdown:hover .dropdownLinks{
+	display: block;
+}
+
+.dropdownLinks a:hover{
+	font-weight: 1000;
+}
+
+.flex{
+	width: 100%;
+	display: inline-flex;
+}
+
+.menu{
+	width: 23%;
+}
+
+.menuOptions{
+	position: fixed;
+	top: 40%;
+	left: 5%;
+	display: flex;
+	flex-direction: column;
+}
+
+.menuOptions>a{
+	padding-top: 8%;
+	padding-bottom: 8%;
+	color: #7a7779;
+	font-size: 25px;
+}
+
+.menuOptions>a:hover{
+	color: black;
+}
+
+
+.content{
+	width: 75%;
+	margin-left: 2%;
+	margin-right: 5%;
+}
+
+.italic{
+	font-style: italic;
+}
+
+.underline{
+	text-decoration: underline;
+}
+
+figcaption{
+	text-align: center;
+}
+
+.line{
+	width: 100%;
+	height: .25%;
+	background-color: #7a7779;
+	margin-top: 10%;
+	margin-bottom: 10%;
+}
+
