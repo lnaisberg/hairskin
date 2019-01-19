@@ -1,9 +1,15 @@
 h1, p{
 	margin-right: 2%;
+	font-size: 2.5vh;
+	height: auto;
 }
 
 h1{
 	text-align: center;
+}
+
+h1{
+	font-size: 6vh;
 }
 
 .woman_comb{
@@ -56,9 +62,6 @@ iframe{
 	height: auto;
 }
 
-p{
-	font-size: 20px;
-}
 
 .appointment{
 	margin-bottom: 10%;
@@ -66,6 +69,21 @@ p{
 	margin-top: 4%;
 	margin-left: 3%;
 	margin-right: 4%;
+}
+
+.hairFol{
+	width: 50%;
+	height: auto;
+	margin: 3%;
+	line-height: auto;
+}
+
+.hairFol>img{
+	width: 100%;
+	position: relative;
+	top: 20%;
+
+
 }
 
 
