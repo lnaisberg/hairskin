@@ -1,4 +1,4 @@
-$(document).ready(function(){
+/*$(document).ready(function(){
 
 	var i = 0;
 	var images = ["0.jpg", "1.jpg", "2.jpg"];
@@ -12,4 +12,4 @@ $(document).ready(function(){
 			i = 0;
   	}
 	setInterval(changeBackground, 4000);
-});
+});*/
